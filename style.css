@@ -1,0 +1,48 @@
+.parent p{
+    font-family: cursive ;
+    letter-spacing: 5px;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+p:hover{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+.border{
+    border: 2px solid burlywood;
+    padding: 10px;
+}
+.margin{
+    border: 3px solid aquamarine;
+    margin-top: 5px;
+    padding: 18px 50px 5px 30px;
+}
+.relative{
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+
+.grid -container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px/50px 50px 50px ;
+    grid-template-rows: 50px 50px;
+}
+
+.grid -container div{
+    border: 2px solid cyan;
+}
+.four{
+    grid -column -start: 1;
+    grid -column -end: 6;
+    grid -row -start: 2;
+    grid -row -end: 5;
+}
